@@ -10,6 +10,7 @@ This project is a web scraping service that collects data from specified website
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -48,6 +49,27 @@ This project is a web scraping service that collects data from specified website
 1. Open your web browser and go to `http://127.0.0.1:8000`.
 2. Use the interface to start web scraping tasks.
 
+## Deployment
+
+The application is deployed on Heroku and can be accessed at [https://gja-web-scraper-bf807c2e68d5.herokuapp.com/](https://gja-web-scraper-bf807c2e68d5.herokuapp.com/).
+
+To deploy your own version on Heroku:
+
+1. Create a Heroku app:
+    ```sh
+    heroku create your-app-name
+    ```
+
+2. Push the code to Heroku:
+    ```sh
+    git push heroku main
+    ```
+
+3. Open the app in your browser:
+    ```sh
+    heroku open
+    ```
+
 ## Contributing
 
 1. Fork the repository.
@@ -63,6 +85,6 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-Gavin Anderson - [your email](mailto:your-email@example.com)
+Gavin Anderson - [gavanderson13@gmail.com](mailto:gavanderson13@gmail.com)
 
 Project Link: [https://github.com/Gavand1969/web_scraping_service](https://github.com/Gavand1969/web_scraping_service)
